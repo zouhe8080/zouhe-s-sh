@@ -1,0 +1,5 @@
+补充:装对应的包了会有这个对应的配置文件  vim /usr/lib/systemd/system/memcached.service <<<<<<<<<<systac rest memcached
+yum -y ins	telent
+set key 0 180 3  >>>>>定义值 key 0表示不压缩 180表示在内存存180秒 3表示三个字符
+
+yum -y install  php-pecl-memcache  php连接 memcache的扩展包
